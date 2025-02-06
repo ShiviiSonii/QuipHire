@@ -206,9 +206,10 @@ video {
 }
 
 .card{
-    border-right: 1px solid var(--p-color);
+    border-right: 1px solid #ebeaea;
     padding: 20px 40px;
     text-align: center;
+    color: var(--text-color);
 }
 
 .card > h4{
@@ -243,6 +244,7 @@ video {
     text-transform: uppercase;
     font-size: 3rem;
     margin: 0;
+    color: var(--text-color);
     line-height: 4.5rem;
 }
 
@@ -260,6 +262,7 @@ video {
     align-items: center;
     text-align: left;
     padding-top: 20px;
+    color: var(--text-color);
 }
 
 .intro-cards > div > p{
@@ -300,6 +303,7 @@ video {
     height: auto;
     text-align: left;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color: var(--text-color);
 }
 
 .service-card img {
@@ -312,6 +316,7 @@ video {
 .service-card h3 {
     font-size: 18px;
     margin: 20px 0;
+    color: var(--text-color);
 }
 
 .service-card p {
@@ -405,6 +410,7 @@ video {
     gap: 2rem;
     align-items: flex-start;
     padding:50px 35px;
+    color: var(--text-color);
 }
 
 .left-section {
@@ -425,14 +431,15 @@ video {
 
 .main-heading {
     font-size: 2.8rem;
-    font-weight: bold;
+    font-weight: 800;
+    color: var(--text-color);
     line-height: 1.2;
     margin: 0;
     margin-bottom: 2rem;
 }
 
 .subtitle {
-    color: var(--p-color);
+    color: var(--text-color);
     font-size: 1.5rem;
     margin: 0;
     /* margin-bottom: 2rem; */
@@ -635,6 +642,7 @@ tbody tr:hover td:last-child {
 .stats-div > div > h4{
     font-size: 3rem;
     margin: 10px;
+    color: var(--text-color);
 }
 
 
@@ -676,6 +684,7 @@ tbody tr:hover td:last-child {
     align-items: center;
     padding: 50px 35px;
     gap: 50px;
+    color: var(--text-color);
 }
 
 .get-in-touch > img{
@@ -724,6 +733,7 @@ tbody tr:hover td:last-child {
     align-items: center;
     justify-content: center;
     padding: 50px 35px;
+    color:var(--text-color);
 }
 
 .process-container > h5{
@@ -761,7 +771,7 @@ tbody tr:hover td:last-child {
 
 .process-div{
     padding: 80px 20px;
-    border: 1px solid black;
+    border: 1px solid #f0f2ff;
     border-radius: 10px;
 }
 
@@ -783,16 +793,17 @@ tbody tr:hover td:last-child {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: var(--text-color);
 }
 
 .blog-title {
     font-size: 2.5rem;
-    color: #333;
+    color: var(--text-color);
     margin-bottom: 1rem;
 }
 
 .blog-description {
-    color: #666;
+    color: var(--p-color);
     font-size: 1.1rem;
 }
 
@@ -849,7 +860,7 @@ tbody tr:hover td:last-child {
 .blog-card-title {
     font-size: 1.5rem;
     margin: 0.5rem 0;
-    color: #333;
+    color: var(--text-color);
 }
 
 .blog-author {
@@ -866,7 +877,7 @@ tbody tr:hover td:last-child {
 }
 
 .author-name {
-    color: #666;
+    color: var(--p-color);
 }
 
 .navigation-buttons {
@@ -897,18 +908,17 @@ tbody tr:hover td:last-child {
 }
 
 .pre-footer {
-    background-color: #f8f9fa;
+    background-color: #dadbdc;
     padding: 50px 35px;
+    text-align: center;
+    color: var(--text-color);
 }
 
 .cta-section {
     /* max-width: 1200px; */
-    margin: 0 auto;
     text-align: center;
-    background: var(--btn-color);
     padding: 3rem;
     border-radius: 8px;
-    color: white;
 }
 
 .cta-section h2 {
@@ -918,14 +928,9 @@ tbody tr:hover td:last-child {
 
 .cta-section p {
     font-size: 1.1rem;
-    margin-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem; */
     opacity: 0.9;
     color: var(--p-color);
-}
-
-.cta-button{
-    background-color: var(--bg-color);
-    color: var(--btn-color);
 }
 
 .cta-button:hover {
